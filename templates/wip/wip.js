@@ -11,6 +11,7 @@ export function renderMessage(msg, container) {
     <div class="msg-container">
       <img src=${logo} alt="coral-logo" />
       <h2 class="msg">${msg}</h2>
+       <img src=${logo} alt="coral-logo" />
     </div>
 `;
 }
