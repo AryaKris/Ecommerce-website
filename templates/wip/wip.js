@@ -1,5 +1,6 @@
 import logo from "../../assets/coral.svg";
 import "./wip.module.scss";
+import { getElement } from "../helpers";
 
 /**
  * a template to render messages on screen
@@ -8,10 +9,11 @@ import "./wip.module.scss";
  * */
 export function renderMessage(msg, container) {
   container.innerHTML += `
-    <div class="msg-container">
+    <div class="msg-container" id="coral-container">
       <img src=${logo} alt="coral-logo" />
       <h2 class="msg">${msg}</h2>
        <img src=${logo} alt="coral-logo" />
     </div>
 `;
+
 }
