@@ -5,7 +5,6 @@ import { renderHeaderUI } from "./templates/header/header";
 
 
 
-// render messsage
-renderMessage("Coral", appContainer);
+
 // render headerUI
 renderHeaderUI();
